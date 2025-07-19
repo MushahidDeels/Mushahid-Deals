@@ -3,19 +3,24 @@
 const products = [
     {
         id: 1,
-        name: "Smart Watch Pro",
+        name: "Timex Men's Waterbury Classic Chrono 40mm Stainless Steel Quartz Dress Watch with Leather Strap",
         description: "Stay connected with this feature-packed smartwatch. Track your fitness goals, receive notifications, and monitor your heart rate with this sleek wearable. With a battery that lasts up to 7 days and water resistance up to 50 meters, it's perfect for active lifestyles. The always-on display and customizable watch faces let you express your style.",
-        shortDescription: "Stay connected with this feature-packed smartwatch. Track your fitness goals, receive notifications, and monitor your heart rate...",
+        shortDescription: "About this item
+Adjustable brown 20mm genuine leather strap fits up to 8-inch wrist circumference; quick-release spring bars
+Navy & white dial with date window at 4 o'clock; full markers
+30-minute chronograph measures to 1/20th second
+Silver-tone 40mm stainless steel case with mineral glass crystal; Indiglo light-up watch dial; luminous hands
+Water resistant to 30m (100ft): in general, withstands splashes or brief immersion in water, but not suitable for swimming or bathing",
         price: 199.99,
         oldPrice: 249.99,
         category: "electronics",
-        affiliateLink: "https://www.google.com/",
-        image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        affiliateLink: "https://amzn.to/3GwgVc0",
+        image: "https://m.media-amazon.com/images/I/810vcsRRmyL._AC_SX466_.jpg",
         thumbnails: [
-            "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1553545985-1e0d8781d5db?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1558126319-c9feecbf57ee?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+            "https://m.media-amazon.com/images/I/71vPT3BQRYL._AC_SX466_.jpg",
+            "https://m.media-amazon.com/images/I/713ty6NQynL._AC_SX466_.jpg",
+            "https://m.media-amazon.com/images/I/81J1emBykFL._AC_SX466_.jpg",
+            "https://m.media-amazon.com/images/I/71OApbhN-mL._AC_SX466_.jpg"
         ]
     },
     {
