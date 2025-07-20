@@ -14,7 +14,7 @@ Water resistant to 30m (100ft): in general, withstands splashes or brief immersi
         price: 199.99,
         oldPrice: 249.99,
         category: "electronics",
-        affiliateLink: "https://amzn.to/3GwgVc0"
+        affiliateLink: "https://amzn.to/3GwgVc0",
         image: "https://m.media-amazon.com/images/I/810vcsRRmyL._AC_SX466_.jpg",
         thumbnails: [
             "https://m.media-amazon.com/images/I/71vPT3BQRYL._AC_SX466_.jpg",
@@ -176,7 +176,7 @@ function generateProductCards(productsToShow, container) {
                     <span class="read-more">Read more</span>
                 </p>
                 <div class="product-actions">
-                    <a href="${product.affiliateLink}" target="-blank" class="btn btn-deal btn-sm">See Deel</a>
+                    <a href="${products.affiliateLink}" target="-blank" class="btn btn-deal btn-sm">See Deel</a>
                     <button class="btn btn-copy copy-link" data-product-id="${product.id}">
                         <i class="fas fa-copy"></i> Copy Link
                     </button>
@@ -307,7 +307,7 @@ function showProductDetail(productId) {
             </p>
             
             <div class="detail-actions">
-                <a href="${product.affiliateLink}" target="-blank" class="btn btn-primary btn-lg">See Deel</a>
+                <a href="${products.affiliateLink}" target="-blank" class="btn btn-primary btn-lg">See Deel</a>
                 <button class="btn btn-copy btn-lg copy-link" data-product-id="${product.id}">
                     <i class="fas fa-copy"></i> Copy Link
                 </button>
@@ -347,7 +347,7 @@ function generateRelatedProductCards(productsToShow, container) {
                 <span class="product-category">${product.category.charAt(0).toUpperCase() + product.category.slice(1)}</span>
                 <h3 class="product-title">${product.name}</h3>
                 <div class="product-actions">
-                    <a href="${product.affiliateLink}" target="-blank" class="btn btn-deal btn-sm">See Deel</a>
+                    <a href="${products.affiliateLink}" target="-blank" class="btn btn-deal btn-sm">See Deel</a>
                     <button class="btn btn-deal btn-sm">See Deals</button>
                 </div>
             </div>
