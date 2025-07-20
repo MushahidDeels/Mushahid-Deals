@@ -14,7 +14,7 @@ Water resistant to 30m (100ft): in general, withstands splashes or brief immersi
         price: 199.99,
         oldPrice: 249.99,
         category: "electronics",
-        affiliateLink: "https://amzn.to/3GwgVc0",
+        affiliateLink: "https://amzn.to/3GwgVc0"
         image: "https://m.media-amazon.com/images/I/810vcsRRmyL._AC_SX466_.jpg",
         thumbnails: [
             "https://m.media-amazon.com/images/I/71vPT3BQRYL._AC_SX466_.jpg",
