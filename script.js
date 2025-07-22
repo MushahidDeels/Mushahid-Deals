@@ -176,7 +176,7 @@ function generateProductCards(productsToShow, container) {
                     <span class="read-more">Read more</span>
                 </p>
                 <div class="product-actions">
-                    <a href="${product.affiliateLink}" target="-blank" class="btn btn-deal btn-sm">See Deel</a>
+                    // <a href="${product.affiliateLink}" target="-blank" class="btn btn-deal btn-sm">See Deel</a>
                     <button class="btn btn-copy copy-link" data-product-id="${product.id}">
                         <i class="fas fa-copy"></i> Copy Link
                     </button>
@@ -307,7 +307,7 @@ function showProductDetail(productId) {
             </p>
             
             <div class="detail-actions">
-                <a href="${product.affiliateLink}" target="-blank" class="btn btn-primary btn-lg">See Deel</a>
+                // <a href="${product.affiliateLink}" target="-blank" class="btn btn-primary btn-lg">See Deel</a>
                 <button class="btn btn-copy btn-lg copy-link" data-product-id="${product.id}">
                     <i class="fas fa-copy"></i> Copy Link
                 </button>
@@ -347,7 +347,7 @@ function generateRelatedProductCards(productsToShow, container) {
                 <span class="product-category">${product.category.charAt(0).toUpperCase() + product.category.slice(1)}</span>
                 <h3 class="product-title">${product.name}</h3>
                 <div class="product-actions">
-                    <a href="${product.affiliateLink}" target="-blank" class="btn btn-deal btn-sm">See Deel</a>
+                    // <a href="${product.affiliateLink}" target="-blank" class="btn btn-deal btn-sm">See Deel</a>
                     <button class="btn btn-deal btn-sm">See Deals</button>
                 </div>
             </div>
