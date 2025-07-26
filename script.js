@@ -91,7 +91,7 @@ const products = [
         description: "Luxurious designer handbag crafted from premium vegan leather. Spacious interior with multiple compartments for organization. Features a detachable shoulder strap for versatile carrying options. The timeless design and quality craftsmanship make it a perfect accessory for any occasion. Water-resistant and durable for everyday use.",
         category: "fashion",
         affiliateLink: "https://amzn.to/3GwgVc0",
-        image: "images/water.jpg",
+        image: "https://images.unsplash.com/photo-1591561954557-26941169b49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         thumbnails: [
             "https://images.unsplash.com/photo-1591561954557-26941169b49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
             "https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -105,7 +105,7 @@ const products = [
         description: "Luxurious designer handbag crafted from premium vegan leather. Spacious interior with multiple compartments for organization. Features a detachable shoulder strap for versatile carrying options. The timeless design and quality craftsmanship make it a perfect accessory for any occasion. Water-resistant and durable for everyday use.",
         category: "fashion",
         affiliateLink: "https://amzn.to/3GwgVc0",
-        image: "images/wa.jpg",
+        image: "https://images.unsplash.com/photo-1591561954557-26941169b49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         thumbnails: [
             "https://images.unsplash.com/photo-1591561954557-26941169b49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
             "https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
