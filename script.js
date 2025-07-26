@@ -1,3 +1,6 @@
+// At the top of script.js
+console.log("Script loaded successfully");
+
 // Add this at the very top of script.js
 window.addEventListener('load', function() {
     // Initialize only after everything is loaded
@@ -181,6 +184,18 @@ card.innerHTML = `
     <img src="${product.image}" alt="${product.name}" class="product-image" 
          onerror="this.src='https://via.placeholder.com/300x200?text=Image+Not+Available'">
     <!-- rest of the card content -->
+
+
+    // In generateProductCards function
+console.log(`Generating ${productsToShow.length} products for`, container.id);
+productsToShow.forEach(product => {
+    console.log(`Product ${product.id}: ${product.name}`);
+    // ...
+});
+
+
+
+    
 `;
     productsToShow.forEach(product => {
         try {
