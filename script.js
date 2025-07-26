@@ -315,7 +315,7 @@ function initCategoryFilter() {
                 filteredProducts = products.filter(product => product.category === category);
             }
             
-            // generateProductCards(filteredProducts, productsGrid);
+            generateProductCards(filteredProducts, productsGrid);
             generateProductCards(filteredProducts, allproducts);
         });
     });
