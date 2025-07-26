@@ -1,3 +1,33 @@
+// Add this at the very top of script.js
+window.addEventListener('load', function() {
+    // Initialize only after everything is loaded
+    initApplication();
+});
+
+function initApplication() {
+    // Check if containers exist before generating products
+    if (document.getElementById('productsGrid') && document.getElementById('allproducts')) {
+        generateProductCards(products, productsGrid);
+        generateProductCards(products, allproducts);
+        initCategoryFilter();
+        initCopyLink();
+        checkInitialURL();
+    } else {
+        console.error("Product containers not found!");
+        // Try again after a short delay
+        setTimeout(initApplication, 500);
+    }
+}
+
+// Add this to your existing DOMContentLoaded event
+document.addEventListener('DOMContentLoaded', function() {
+    // Mobile menu initialization
+    mobileToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+    });
+    
+    // Other initialization that doesn't depend on products
+});
 
 // Sample product data
 const products = [
@@ -146,6 +176,12 @@ function generateProductCards(productsToShow, container) {
 
     container.innerHTML = '';
     
+    // Inside generateProductCards function
+card.innerHTML = `
+    <img src="${product.image}" alt="${product.name}" class="product-image" 
+         onerror="this.src='https://via.placeholder.com/300x200?text=Image+Not+Available'">
+    <!-- rest of the card content -->
+`;
     productsToShow.forEach(product => {
         try {
             const card = document.createElement('div');
