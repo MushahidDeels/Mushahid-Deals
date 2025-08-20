@@ -1,37 +1,3 @@
-// At the top of script.js
-console.log("Script loaded successfully");
-
-// Add this at the very top of script.js
-window.addEventListener('load', function() {
-    // Initialize only after everything is loaded
-    initApplication();
-});
-
-function initApplication() {
-    // Check if containers exist before generating products
-    if (document.getElementById('productsGrid') && document.getElementById('allproducts')) {
-        generateProductCards(products, productsGrid);
-        generateProductCards(products, allproducts);
-        initCategoryFilter();
-        initCopyLink();
-        checkInitialURL();
-    } else {
-        console.error("Product containers not found!");
-        // Try again after a short delay
-        setTimeout(initApplication, 500);
-    }
-}
-
-// Add this to your existing DOMContentLoaded event
-document.addEventListener('DOMContentLoaded', function() {
-    // Mobile menu initialization
-    mobileToggle.addEventListener('click', () => {
-        navMenu.classList.toggle('active');
-    });
-    
-    // Other initialization that doesn't depend on products
-});
-
 // Sample product data
 const products = [
     {
